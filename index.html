@@ -7,7 +7,7 @@ layout: default
   <h1>Jeff Appareti</h1>
   <h2>Web Developer / Designer</h2>
   <p>I'm a rare hybrid of developer &amp; designer based in Santa Barbara, California USA. I have been helping businesses, individuals and non-profits with their websites for over 8 years. I design responsive clean websites that successfully sell products, advertise services, or clarify missions. I write clean, organized code that strikes a balance between optimized performance and maintainability.</p>
-
+  
   <h3>Skills:</h3>
   <p><strong>Front-end:</strong> I'm skilled in <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong>, and <strong>jQuery</strong>. I keep an eye on the design as I develop the front-end, reducing back-and-forth between designers.</p>
   <p><strong>Frameworks:</strong> I work extensively with <strong>Wordpress</strong>, <strong>WooCommerce</strong>, <strong>Squarespace</strong>, <strong>Shopify</strong>, and <strong>Jekyll</strong> (static websites). A lot of my work involves customizing themes on these frameworks, and organizing website content effectively.</p>
@@ -15,22 +15,110 @@ layout: default
   </ul>
   <h3>Projects/Clients:</h3>
   <ul id="projects">
-    <li><a href="http://www.firstcrescent.com" target="_blank" data-img="img/first_crescent-ss.jpg">firstcrescent.com</a> (Wordpress, Design)</li>
-    <li><a href="http://www.pathigniter.com" target="_blank" data-img="img/pathigniter-ss.jpg">pathigniter.com</a> (Wordpress, Design)</li>
-    <li><a href="http://www.fieldwayacademy.com" target="_blank" data-img="img/fieldwayacademy-ss.jpg">fieldwayacademy.com</a> (Wordpress, Design, Content)</li>
-    <li><a href="http://www.petersonpocketdoor.com" target="_blank" data-img="img/ppds-ss.jpg">petersonpocketdoor.com</a> (Shopify, Design, Content)</li>
-    <li><a href="http://www.appfolio.com" target="_blank">appfolio.com</a> (Built 100+ customer websites in RoR)</li>
-    <li><a href="http://www.bryanlanemusic.com" target="_blank" data-img="img/bryan_lane-ss.jpg">bryanlanemusic.com</a> (Squarespace, Design)</li>
-    <li><a href="http://www.lucasmbell.com" target="_blank" data-img="img/lucas_bell-ss.jpg">lucasmbell.com</a> (Squarespace, Design)</li>
-    <li><a href="http://www.bigskyconsulting.com" target="_blank" data-img="img/big_sky-ss.jpg">bigskyconsulting.com</a> (Wordpress, Design)</li>
-    <li><a href="http://www.rivardfoundation.org" target="_blank" data-img="img/rivard-ss.jpg">rivardfoundation.org</a> (Wordpress, Design)</li>
-    <li><a href="http://www.messengercoffee.co" target="_blank" data-img="img/messenger-ss.jpg">messengercoffee.co</a> (Shopify, Design)</li>
-    <li><a href="http://www.jrelectric.com" target="_blank" data-img="img/jr_electric-ss.jpg">jrelectric.com</a> (Jekyll, Design)</li>
-    <li><a href="http://www.juiceranch.com" target="_blank" data-img="img/juice_ranch-ss.jpg">juiceranch.com</a> (Wordpress, Woocommerce, Design)</li>
-    <li><a href="http://m.kay.com" target="_blank" data-img="img/kay-ss.jpg">m.kay.com</a> (Mobile, front-end, Moovweb)</li>
-    <li><a href="http://m.jared.com" target="_blank" data-img="img/jared-ss.jpg">m.jared.com</a> (Mobile, front-end, Moovweb)</li>
-    <li><a href="http://m.movado.com" target="_blank" data-img="img/movado-ss.jpg">m.movado.com</a> (Mobile, front-end, Moovweb)</li>
-    <li><a href="http://m.lifeway.com" target="_blank" data-img="img/lifeway-ss.jpg">m.lifeway.com</a> (Mobile, front-end, Moovweb)</li>
+    <li>
+      <a href="http://www.firstcrescent.com" target="_blank">
+        {% img first_crescent-ss.jpg class:'screenshot' %}
+        firstcrescent.com
+      </a> 
+      (Wordpress, Design)
+    </li>
+    <li>
+      <a href="http://www.pathigniter.com" target="_blank">
+        {% img pathigniter-ss.jpg class:'screenshot' %}
+        pathigniter.com
+      </a> 
+      (Wordpress, Design)
+    </li>
+    <li>
+      <a href="http://www.fieldwayacademy.com" target="_blank">
+        {% img fieldwayacademy-ss.jpg class:'screenshot' %}
+        fieldwayacademy.com
+      </a> 
+      (Wordpress, Design, Content)
+    </li>
+    <li>
+      <a href="http://www.petersonpocketdoor.com" target="_blank">
+        {% img ppds-ss.jpg class:'screenshot' %}
+        petersonpocketdoor.com
+      </a> 
+      (Shopify, Design, Content)
+    </li>
+    <li>
+      <a href="http://www.appfolio.com" target="_blank">
+        appfolio.com
+      </a> 
+      (Built 100+ customer websites in RoR)
+    </li>
+    <li>
+      <a href="http://www.bryanlanemusic.com" target="_blank">
+        {% img bryan_lane-ss.jpg class:'screenshot' %}
+        bryanlanemusic.com
+      </a> 
+      (Squarespace, Design)
+    </li>
+    <li>
+      <a href="http://www.lucasmbell.com" target="_blank">
+        {% img lucas_bell-ss.jpg class:'screenshot' %}
+        lucasmbell.com
+      </a> 
+      (Squarespace, Design)
+    </li>
+    <li>
+      <a href="http://www.bigskyconsulting.com" target="_blank">
+        {% img big_sky-ss.jpg class:'screenshot' %}
+        bigskyconsulting.com
+      </a> 
+      (Wordpress, Design)
+    </li>
+    <li>
+      <a href="http://www.rivardfoundation.org" target="_blank">
+        {% img rivard-ss.jpg class:'screenshot' %}
+        rivardfoundation.org
+      </a> 
+      (Wordpress, Design)
+    </li>
+    <li>
+      <a href="http://www.jrelectric.com" target="_blank">
+        {% img jr_electric-ss.jpg class:'screenshot' %}
+        jrelectric.com
+      </a> 
+      (Jekyll, Design)
+    </li>
+    <li>
+      <a href="http://www.juiceranch.com" target="_blank">
+        {% img juice_ranch-ss.jpg class:'screenshot' %}
+        juiceranch.com
+      </a> 
+      (Wordpress, Woocommerce, Design)
+    </li>
+    <li>
+      <a href="http://m.kay.com" target="_blank">
+        {% img kay-ss.jpg class:'screenshot' %}
+        m.kay.com
+      </a> 
+      (Mobile, front-end, Moovweb)
+    </li>
+    <li>
+      <a href="http://m.jared.com" target="_blank">
+        {% img jared-ss.jpg class:'screenshot' %}
+        m.jared.com
+      </a> 
+      (Mobile, front-end, Moovweb)
+    </li>
+    <li>
+      <a href="http://m.movado.com" target="_blank">
+        {% img movado-ss.jpg class:'screenshot' %}
+        m.movado.com
+      </a> 
+      (Mobile, front-end, Moovweb)
+    </li>
+    <li>
+      <a href="http://m.lifeway.com" target="_blank">
+        {% img lifeway-ss.jpg class:'screenshot' %}
+        m.lifeway.com
+      </a> 
+      (Mobile, front-end, Moovweb)
+    </li>
   </ul>
   <h3>Contact:</h3>
   <a href="mailto:jappareti@gmail.com">jappareti@gmail.com</a>

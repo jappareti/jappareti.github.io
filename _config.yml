@@ -20,3 +20,8 @@ github_username:  jappareti
 
 # Build settings
 markdown: kramdown
+
+gems:
+- jekyll-assets
+
+JEKYLL_ENV: production
